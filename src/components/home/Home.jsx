@@ -4,10 +4,12 @@ import FeaturedJobs from '../featuredJobs/FeaturedJobs';
 
 const Home = () => {
     return (
-        <div className='mx-[2px] lg:mx-[90px]'>
+        <div className=''>
             <Banner></Banner>
-            <CategoryList></CategoryList>
-            <FeaturedJobs></FeaturedJobs>
+            <div className='mx-[2px] lg:mx-[90px]'>
+              <CategoryList></CategoryList>
+              <FeaturedJobs></FeaturedJobs>
+            </div>
         </div>
     );
 };
